@@ -52,7 +52,8 @@ if (measurement >= 400){//決定觸發起動歌曲的條件(值)
     mp3.play(2);     //歌曲於SD CARD內的次序
   }
   if (measurement3 >= 400){//決定觸發起動歌曲的條件(值)
-    mp3.play(3);     //歌曲於SD CARD內的次序
+    mp3.play(3);
+  }     //歌曲於SD CARD內的次序
 
   
   delay(50);//迴圈再執行的中間位
